@@ -140,7 +140,7 @@ import {
               <CTableRow>
                 <CTableHeaderCell>No</CTableHeaderCell>
   
-                <CTableHeaderCell>Ordered By</CTableHeaderCell>
+                <CTableHeaderCell className="ms-3">Ordered By</CTableHeaderCell>
                 <CTableHeaderCell>Order Time</CTableHeaderCell>
                 <CTableHeaderCell className="text-center">
                   Location
