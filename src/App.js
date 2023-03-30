@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Suspense } from "react";
+import { HashRouter, Routes, Route } from "react-router-dom";
+// import AppFooter from "./components/AppFooter";
+// import AppLayout from "./layout/AppLayout";
+import "./scss/style.scss";
+
+const loading = (
+  <div className="pt-3 text-center">
+    <div className="sk-spinner sk-spinner-pulse"></div>
+  </div>
+);
+const DefaultLayout = React.lazy(() => import("./layout/AppLayout"));
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <Suspense fallback={loading}>
+        <Routes>
+          <Route path="*" name="Home" element={<DefaultLayout />} />
+          <Route path="/hello" />
+        </Routes>
+      </Suspense>
+    </HashRouter>
   );
 }
 
