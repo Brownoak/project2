@@ -48,13 +48,13 @@ const AppBreadcrumb = () => {
           );
         })}
       </CBreadcrumb>
-      <span className="d-flex align-items-center" >
+      {/* <span className="d-flex align-items-center" >
         <Link to="/order" className="ms-2 active">New Orders</Link>
         <Link className="ms-2 text-dark text-decoration-none">/</Link>
         <Link to="/progress" className="ms-2 active">Progress</Link>
         <Link className="ms-2 text-dark text-decoration-none ">/</Link>
         <Link to="/done" className="ms-2 active">Done</Link>
-      </span>
+      </span> */}
     </>
   );
 };
