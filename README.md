@@ -15,8 +15,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Done using CoreUi in React and Bootstrap 5
 
-### ![image](https://user-images.githubusercontent.com/88231361/228826604-94be9996-1e80-48c6-baeb-1b9f3ed3d1ac.png)
+### ![image](https://user-images.githubusercontent.com/88231361/233997188-62a4cc3b-6fcc-49d5-a133-11917cf1a4f3.png)
 ### ![image](https://user-images.githubusercontent.com/88231361/228827649-861c5140-9a31-4d63-b4ee-2c3e27b9dc72.png)
+### ![image](https://user-images.githubusercontent.com/88231361/233997886-5a0f178d-db56-4ede-9d67-edbba76898bd.png)
+
 
 
 The page will reload when you make changes.\
