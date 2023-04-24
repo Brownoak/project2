@@ -15,7 +15,7 @@ import CIcon from "@coreui/icons-react";
 import { cilBell, cilEnvelopeOpen, cilList, cilMenu } from "@coreui/icons";
 
 import { logo } from "../assets/brand/logo";
-// import AppBreadcrumb from "./AppBreadcrumb";
+import AppBreadcrumb from "./AppBreadcrumb";
 
 const AppHeader = () => {
   const dispatch = useDispatch();
@@ -67,7 +67,7 @@ const AppHeader = () => {
       </CContainer>
       <CHeaderDivider />
       <CContainer fluid>
-        {/* <AppBreadcrumb /> */}
+        <AppBreadcrumb />
       </CContainer>
     </CHeader>
   );
