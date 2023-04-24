@@ -53,7 +53,7 @@ const AppBreadcrumb = () => {
         <Link className="ms-2 text-dark text-decoration-none">/</Link>
         <Link to="/progress" className="ms-2 active">Progress</Link>
         <Link className="ms-2 text-dark text-decoration-none ">/</Link>
-        <Link className="ms-2 active">Done</Link>
+        <Link to="/done" className="ms-2 active">Done</Link>
       </span>
     </>
   );
